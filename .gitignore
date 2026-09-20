@@ -1,1 +1,105 @@
-env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
++env/
+env.bak/
+venv.bak/
+
+# Django-specific files
+db.sqlite3
+db.sqlite3-journal
+*.log
+local_settings.py
+staticfiles/
+media/
+
+# ============================================================================
+# React & Node.js Configuration
+# ============================================================================
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production build artifacts
+/build
+/dist
+/out
+
+# Frontend logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend framework specific caches
+.eslintcache
+.stylelintcache
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# ============================================================================
+# Sensitive Files & Security (Crucial)
+# ============================================================================
+
+# Environment variables containing secret keys, API tokens, and database passwords
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# ============================================================================
+# System, IDE, and Editor Artifacts
+# ============================================================================
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains IDEs (PyCharm, WebStorm, IntelliJ, etc.)
+.idea/
+
+# VS Code features
+.vscode/
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
